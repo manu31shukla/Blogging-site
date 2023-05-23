@@ -1,7 +1,7 @@
 
-body {
+.home {
   background-image: url('src/assets/bg-image.jpg');
   background-size: cover;
   background-position: center;
-  backdrop-filter: blur(8px);
+      
 }

@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import ArticleList from './pages/ArticleList';
 import Article from './pages/Article';
+import Contact from './pages/Contact';
 import './App.css'
 
 function App() {
@@ -10,12 +11,13 @@ function App() {
   return (
     <>
     <Router>
-    <div className=' max-auto pt-30'>
+    <div >
       <Routes>
       <Route path="/" element={<Home/> } />
-      <Route path="about" element={<About/> } />
+      <Route path="/about" element={<About/> } />
+      <Route path="/contact" element={<Contact/> } />
       <Route path="/list" element={<ArticleList/> } />
-      <Route path="article" element={<Article/> } />
+      <Route path="/article/:name" element={<Article/> } />
       </Routes>
     </div>
     </Router>
