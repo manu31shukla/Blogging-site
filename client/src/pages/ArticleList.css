@@ -1,0 +1,11 @@
+.article-container {
+    background-image: url('src/assets/bg-image4.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
